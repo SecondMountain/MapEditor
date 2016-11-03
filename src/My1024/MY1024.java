@@ -234,6 +234,6 @@ public class MY1024 extends Application {
             return;
         String str = list.get(random.nextInt(list.size()));
         point[Integer.parseInt(str.substring(0,1))][Integer.parseInt(str.substring(1,2))]=2;
-        printf(point);
+//        printf(point);
     }
 }
