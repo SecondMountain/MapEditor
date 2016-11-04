@@ -11,6 +11,7 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -107,7 +108,6 @@ public class Main extends Application{
             }
         });
         canvas.requestFocus();//获取焦点之后就可以执行按键事件
-
     }
     public void draw(GraphicsContext gc){
         gc.drawImage(planet.image,planet.x,planet.y,50,42.5);
